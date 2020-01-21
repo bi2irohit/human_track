@@ -1,0 +1,116 @@
+body {
+  background-color: #4682b4;
+}
+
+#kpi_row,
+#main_div,
+#viz_row,
+#clock,
+#total_count,
+#total_sos,
+#trend_chart{
+  border-left: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  border-right: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border-top: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#kpi_row{
+    background-color: #dbdbdb;
+}
+
+#main_div{
+  background-color: #4682b4;
+}
+
+#viz_row{
+  background-color: #4682b4;
+  z-index: 0;
+}
+
+#viz_z1_vid1{
+  left: 210px;
+  top: 145px;
+  position: absolute;
+  z-index: 1;
+}
+
+#viz_z1_vid2{
+  left: 750px;
+  top: 145px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+#info{
+  left: 2px;
+  top: 2px;
+  color: black;
+  position: absolute;
+  z-index: 2;
+  cursor: all-scroll;
+}
+
+
+
+
+
+
+#svg_clock{
+  stroke: #000;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#rim {
+  fill: none;
+  stroke: #4682b4;
+  stroke-width: 1px;
+}
+
+.second-hand{
+  stroke-width:0.5;
+
+}
+
+.minute-hand{
+  stroke-width:3;
+  stroke-linecap:round;
+  fill: #4682b4;
+}
+
+.hour-hand{
+  stroke-width:5;
+  stroke-linecap:round;
+  fill: red;
+}
+
+.hands-cover{
+  stroke-width:1;
+  fill:#fff;
+}
+
+.second-tick{
+  stroke-width:0;
+  fill:#000;
+}
+
+.hour-tick{
+  stroke-width:3; //same as the miute hand
+}
+
+.second-label{
+  font-size: 0px;
+}
+
+.hour-label{
+  font-size: 0px;
+}
